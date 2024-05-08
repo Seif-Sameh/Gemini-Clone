@@ -14,7 +14,7 @@ const Sidebar = ({ promptsResponsesList, setPromptsResponsesList, theme, setThem
 
 
   return (
-    <div className={` absolute top-0 left-0 z-50 flex flex-col justify-between items-start px-3 pt-3 pb-10  bg-darkWhite dark:bg-lightGray  transition-all duration-1000 ease-in-out h-screen ${toggleMenu ? 'w-1/5 ' : 'w-[74px]'} max-md:${toggleMenu? 'w-2/5' : 'w-0'}`}>
+    <div className={` absolute top-0 left-0 z-50 flex flex-col justify-between items-start px-3 pt-3 pb-10  bg-darkWhite dark:bg-lightGray  transition-all duration-1000 ease-in-out h-screen ${toggleMenu ? 'w-3/5 md:w-1/5' : 'w-[74px]'} `}>
       <div className='flex flex-col gap-10 justify-between items-start w-full overflow-hidden'>
         <div
           className='w-12 h-12 flex justify-center items-center dark:text-white text-darkGray rounded-full hover:bg-lightHover dark:hover:bg-darkHover cursor-pointer'

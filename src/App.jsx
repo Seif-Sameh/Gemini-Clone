@@ -48,7 +48,7 @@ function App() {
         <div className={`w-[74px] max-md:hidden`}>
           <Sidebar promptsResponsesList={promptsResponsesList} setPromptsResponsesList={setPromptsResponsesList} theme={theme} setTheme={setTheme} toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} recent={recent} setRecent={setRecent}/>
         </div>
-        <div className={`max-md:${toggleMenu? 'w-2/5' : 'hidden'}`}>
+        <div className={`max-md:${toggleMenu? 'w-3/5' : 'hidden'}`}>
           <Sidebar promptsResponsesList={promptsResponsesList} setPromptsResponsesList={setPromptsResponsesList} theme={theme} setTheme={setTheme} toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} recent={recent} setRecent={setRecent}/>
         </div>
 

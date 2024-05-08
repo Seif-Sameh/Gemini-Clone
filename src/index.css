@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ul{
+    list-style-type: disc;
+    list-style-position: outside;
+    padding-left: 25px;
+    margin: 0;
+    line-height: 25px;
+}
+
+ol{
+    list-style-type: decimal;
+    list-style-position: outside;
+    padding-left: 25px;
+}
+li{
+    padding-bottom: 10px;
+}
+pre{
+    background-color: #1e1f20;
+    width: 100%;
+    padding: 25px;
+    border-radius: 6px;
+    overflow: scroll;
+}
+
+hr{
+    animation: loader 3s infinite linear;
+}
+
+@keyframes loader {
+    0%{
+        background-position: -800px 0px;
+    }
+    100%{
+        background-position: 0px -800px;
+    }
+}
